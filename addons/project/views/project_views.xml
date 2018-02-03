@@ -409,12 +409,12 @@
                         <group>
                             <field name="date_deadline"/>
                             <field name="tag_ids" widget="many2many_tags" options="{'no_create_edit': True}"/>
-                            <field name="cost_time"/>
                         </group>
                     </group>
                     <group>
                         <field name="date_start"/>
                         <field name="date_end"/>
+                        <field name="cost_time"/>
                     </group>
                     <notebook>
                         <page name="description_page" string="Description">
